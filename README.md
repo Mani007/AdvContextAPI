@@ -6,4 +6,4 @@ For creation of context.
 2. Provider
 For providing context data to right component. 
 3. Consumer
-For consumption of context data at the right component. 
+For consumption of context data at the right component. **The best way for consuming context API data is to use useContext hook.** 
