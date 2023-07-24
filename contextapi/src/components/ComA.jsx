@@ -9,7 +9,7 @@ function ComA() {
     // useEffect will always render at the time of component rerender. It is alternative to component{did/will/update}mount in class components. 
     useEffect(() => {
         alert("I am clicked")
-    })
+    }, [])
   return (
     <>
     {/* <ComB/> */}
